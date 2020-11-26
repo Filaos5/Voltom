@@ -1,0 +1,180 @@
+body
+{
+    background-color: #5599FF;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+header
+{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFAA;
+}
+
+.tytul
+{
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #555555;
+}
+
+.podtytul
+{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #777777;
+}
+
+.naglowek
+{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #5555EE;
+}
+
+.menu
+{
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    min-height: 40px;
+    text-align: center;
+    background-color: #1122FF;
+}
+
+.menu > li
+{
+    display: inline-block;
+    padding: 10px;
+    padding-left : 20px;
+    padding-right: 20px;
+    border-right: 4px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+
+    border-left: 4px dashed #0a2b42;
+}
+
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: #FFAA00;
+}
+
+.tresc
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1460px;
+    padding: 10px 20px;
+    background-color: #FFFFAA;
+    color: blue;
+}
+
+footer
+{
+ margin-left: auto;
+ margin-right: auto;
+ width: 1460px;
+ background-color: blue;
+ padding: 20px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.tekst
+{
+    width:860px;
+    float: left;
+    font-size: 22px;
+}
+
+.tekst2
+{
+    width:620px;
+    float: left;
+    font-size: 22px;
+}
+
+.tekst3
+{
+    width:960px;
+    float: left;
+    font-size: 22px;
+}
+
+
+
+.zdjecie
+{
+    width: 600px;
+    float: left;
+}
+
+.zdjecie2
+{
+    width: 900px;
+    float: left;
+}
+
+.zdjecie3
+{
+    width: 110px;
+    float: left;
+}
+
+.zdjecie4
+{
+    width: 300px;
+    float: left;
+}
+
+.zdjecie5
+{
+    width: 300px;
+    float: left;
+}
+
+.fb
+{
+    color: white;
+    font-size: 100px;
+    margin: 10px;
+    width: 140px;
+    height: 142px;
+    background-color: #4668b3;
+    float: left;
+
+}
+
+.mapa
+{
+    color: red;
+    font-size: 100px;
+    margin: 10px;
+    width: 140px;
+    height: 142px;
+    background-color: #FFFFFF;
+    float: left;
+
+}
+
+.icon-facebook
+{
+    text-color: white;
+}
