@@ -1,0 +1,320 @@
+@media all and (min-width:1200px){
+.body{
+    background-color: rgb(250, 250, 250);
+    font-family: Arial;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+left: 0;
+width: 100%;
+background-color: #76c4f8;
+padding: 0px;
+}
+
+.header{
+    background-color: rgb(13, 31, 192);
+    height: 90px;
+    padding: 15px;
+    width: auto; 
+    text-align: right;
+    font-size: 12px;
+    color: rgb(233, 51, 66);
+}
+.oferta{
+    float: left;
+    color: rgb(233, 51, 66);
+    background-color: rgb(13, 31, 192);
+    height: 90px;
+    font-size: 16px;
+    padding: 0px;
+    width: auto;
+}
+
+
+.dane{
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+	text-align: center;
+    background-color: #1594e9;
+}
+
+ol 
+{
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    min-height: 50px;
+    text-align: center;
+    background-color: #1594e9;
+    display: inline-block;
+    
+}
+
+ol > li
+{
+    text-align: center;
+    border-right: 2px dashed #030553;
+    float: left;
+	height: 50px;
+
+}
+
+
+ol > li:hover 
+{
+	background-color: #eeec6e;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0px;
+    display: none;
+}
+
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+
+ol > li:first-child
+{
+
+    border-left: 2px dashed #030553;
+}
+
+li > ul > li
+{
+	background-color:#1594e9;
+	position: relative;
+	z-index: 100;
+    height: 60px;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+	border-top: 1px dashed #030553;
+}
+
+li > ul > li:hover
+{
+	background-color:#eeec6e;
+    color: rgb(12, 15, 209);
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #030553;
+}
+
+
+
+.list {
+    display: inline-block;
+    width:70px;
+    height:20px; 
+}
+
+.list3 {
+    display: inline-block;
+    width:150px;
+    height:20px; 
+}
+
+.list2 {
+    display: inline-block;
+    width:250px;
+    height:20px; 
+    padding: 0px;
+    margin: 0px;
+}
+a.tilelink
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width:70px;
+    height:30px;
+    padding: 10px;
+}
+a.tilelink2
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    height:30px;
+    padding: 10px;
+}
+
+a.tilelink3
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width:250px;
+    height:30px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.menu a:hover
+{
+    color: #1100ff;
+    text-decoration: none;
+}
+
+.menu2
+{
+    list-style-type: none;
+    margin: 0;
+    font-size: 20px;
+    min-height: 40px;
+    text-align: center;
+}
+
+.menu2 > li
+{
+    display: inline-block;
+    padding: 10px;
+    padding-left : 20px;
+    padding-right: 20px;
+}
+
+
+.menu2 a
+{
+    color: rgb(21, 8, 138);
+    text-decoration: none;
+}
+
+
+.menu2 a:hover
+{
+    color: #134fcf;
+    text-decoration: none;
+}
+
+.logo{
+    background-color: rgb(201, 232, 241);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+a
+{
+   color: rgb(233, 160, 51);
+   text-decoration: none;
+}
+a:hover
+{
+   color: rgb(194, 115, 12);
+   text-decoration: underline;
+}
+a.niebieski
+{
+   color: rgb(21, 8, 138);
+   text-decoration: none;
+}
+.firma{
+    float: left;
+    width: 400px; 
+    padding: 0px;
+}
+
+.firma2{
+    background-color: rgb(13, 31, 192);
+    margin: 0px;
+    padding: 3px;
+}
+
+.firma3{
+    background-color: rgb(218, 203, 0);
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#naglowek{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+#naglowek2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+#naglowek3{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(27, 8, 9);
+}
+
+.tekst1{
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(211, 2, 2);
+}
+
+.koniec{
+    clear:both;
+}
+
+.footer {
+    background-color: yellow; 
+    text-align: center;
+    bottom:0;
+	width:100%;
+    height:220px;	
+    min-height:calc(220px);
+    }
+
+.stopka{
+    text-align: left;
+    float: left;
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.stopka a
+{
+    color: rgb(21, 8, 138);
+    text-decoration: none;
+}
+
+.stopka a:hover{
+    color: #134fcf;
+    text-decoration: none;
+}
+
+.tlo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 1000px;
+    background: #CFD5DE url(zdjecia/IMG_20211003_122630.jpg) no-repeat center center fixed;
+}
+
+.zdjecie {
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    width: 60%;
+}
+
+
+
+
+}
