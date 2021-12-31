@@ -10,7 +10,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    background-color: rgb(250, 250, 250);
+    background-color: #76c4f8;
     padding: 0px;
 }
 
@@ -35,7 +35,7 @@
 
 .menu{
     width: 100%;
-    height: 360px;
+    height: 380px;
 	text-align: center;
     background-color: #1594e9;
     padding-top: 10px;
@@ -215,8 +215,9 @@ a.niebieski
    text-decoration: none;
 }
 .firma{
-    width: 400px; 
+    width: 100%; 
     padding: 0px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -235,7 +236,7 @@ a.niebieski
 
 .dane{
     padding: 0px;
-    width: 400px;
+    width: 100%;
     background-color: rgb(201, 232, 241);
     margin-left: auto;
     margin-right: auto;
@@ -259,6 +260,11 @@ a.niebieski
     color: rgb(27, 8, 9);
 }
 
+.tekst{
+    font-size: 30px;
+    color: rgb(16, 2, 211);
+}
+
 .tekst1{
     padding: 5px;
     font-size: 20px;
@@ -274,7 +280,7 @@ a.niebieski
     text-align: center;
     bottom:0;
 	width:100%;
-    height:540px;	
+    height:600px;	
     min-height:calc(400px);
     }
 
@@ -313,6 +319,17 @@ a.niebieski
 }
 
 
+.przyciskgora
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("pobrane/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
 
 
 }

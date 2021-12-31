@@ -13,6 +13,7 @@ left: 0;
 width: 100%;
 background-color: #76c4f8;
 padding: 0px;
+
 }
 
 .header{
@@ -226,6 +227,7 @@ a.niebieski
 }
 .firma{
     float: left;
+    text-align: center;
     width: 400px; 
     padding: 0px;
 }
@@ -259,7 +261,10 @@ a.niebieski
     font-size: 30px;
     color: rgb(27, 8, 9);
 }
-
+.tekst{
+    font-size: 30px;
+    color: rgb(16, 2, 211);
+}
 .tekst1{
     padding: 5px;
     font-size: 20px;
@@ -314,7 +319,17 @@ a.niebieski
     width: 60%;
 }
 
-
+.przyciskgora
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("pobrane/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
 
 
 }

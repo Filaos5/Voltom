@@ -9,6 +9,30 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			$('.przyciskgora').click(function() { $.scrollTo($('body'), 500); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+        $(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.przyciskgora').fadeIn();
+			else $('.przyciskgora').fadeOut();		
+		}
+		);
+	
+	
+	</script>
 </head>
     
 <body class="body">
@@ -47,6 +71,7 @@
  
     </div>
     <div class="container">
+        <a href="#" class="przyciskgora"></a>
         <div class="logo">
         <div class="firma"> 
             <div class="firma2">
@@ -68,7 +93,8 @@
 
         </div> 
         <div class="tlo">
-            <h1 id="naglowek3">Nasza firma</h1>
+        </br>
+            <h1 class="tekst">Nasza firma</h1>
             <h2 class="tekst1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
             <div >
                 <img class="zdjecie" src="pobrane/panele_fotowoltaiczne.jpg">
@@ -88,7 +114,7 @@
         <footer class="footer">
             <div>
                 <ul class="menu2">
-                    <li><a href="#top" class="tilelink2">Powrót na górę</a></li>
+                    <li><a href="#top" class="tilelink2">Strona główna</a></li>
                     <li><a href="fotowolty.html" class="tilelink2">Panele fotowoltaiczne</a></li>
                     <li><a href="firma.html" class="tilelink">O firmie</a></li>
                     <li><a href="oferta.html" class="tilelink">Oferta</a></li>

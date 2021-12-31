@@ -8,6 +8,31 @@
     <title> Voltom</title>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			$('.przyciskgora').click(function() { $.scrollTo($('body'), 500); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+        $(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.przyciskgora').fadeIn();
+			else $('.przyciskgora').fadeOut();		
+		}
+		);
+	
+	
+	</script>
 </head>
     
 <body class="body">
@@ -15,41 +40,75 @@
         <div class="oferta">
             <h1>Skontaktuj się z nami</h1>
         </div>
-        <div class=adres>
         <h2>Telefon: <a href="tel:+48661217756"> +48 661 217 756</a></h2>
         <h2>E-mail: <a href="mailto:tomaszkondej.biuro@gmail.com"> tomaszkondej.biuro@gmail.com</a></h2>
-        </div>
     </div>
-    <nav id="topnav">
-        <ul class="menu">
-            <li><div class="list3"><a href="index.html" class="tilelink2">Strona główna</a></div></li>
-            <li><div class="list2"><a href="fotowolty.html" class="tilelink3">Panele fotowoltaiczne</a></li>
-            <li><div class="list"><a href="firma.html" class="tilelink">O firmie</a></div></li>
-            <li><div class="list"><a href="oferta.html" class="tilelink">Usługi</a></div></li>
-            <li><div class="list"><a href="cennik.html" class="tilelink">Cennik</a></div></li>
-            <li><div class="list"><a href="galeria.html" class="tilelink">Galeria</a></div></li>
-            <li><div class="list"><a href="kontakt.php" class="tilelink">Kontakt</a></div></li>
-        </ul>
-    </nav>
+    <div class="menu">       
+    <ol>
+        <li><a href="index.html" class="tilelink2">Strona główna</a></li>
+        <li><a href="fotowolty.html" class="tilelink2">Panele fotowoltaiczne</a></li>
+        <li><a href="firma.html" class="tilelink">O firmie</a></li>
+        <li><a href="oferta.html" class="tilelink3">Oferta</a>
+            <ul>
+                <li><a href="oferta/instalacje_fotowolty.html" class="tilelink3">Instalacje fotowoltaiczne</a></li>
+                <li><a href="oferta/instalacje_elektryczne.html" class="tilelink3">Instalacje elektryczne w budynkach</a></li>
+                <li><a href="oferta/koparka.html" class="tilelink3">Usługi koparką</a></li>
+                <li><a href="oferta/projekty_CAD.html" class="tilelink3">Projekty instalacji w programie typu CAD</a></li>
+                <li><a href="oferta/inteligentny_dom.html" class="tilelink3">Systemy inteligentnego domu</a></li>
+                <li><a href="oferta/alarm_i_monitoring.html" class="tilelink3">Instalacje alarmowe i monitoringu</a></li>
+                <li><a href="oferta/video_domofon.html" class="tilelink3">Instalacje domofonowe, telewizyjne i internetowe</a></li>
+                <li><a href="oferta/osprzet_elektryczny.html" class="tilelink3">Podłącznie osprzętu elektrycznego</a></li>
+                <li><a href="oferta/plyty_indukcyjne.html" class="tilelink3">Podłącznie płyt indukcyjnych</a></li>
+                <li><a href="oferta/przeglady_konserwacje.html" class="tilelink3">Przeglądy i konserwacje instalacji elektrycznych</a></li>
+                <li><a href="oferta/oprawa_oswietlenie.html" class="tilelink3">Dobór opraw oświetleniowych</a></li>
+                <li><a href="oferta/pomiary.html" class="tilelink3">Pomiary odbiorcze i okresowe</a></li>
+            </ul>
+        </li>     
+        <li><a href="cennik.html" class="tilelink">Cennik</a></li>
+        <li><a href="galeria.html" class="tilelink">Galeria</a></li>
+        <li><a href="kontakt.html" class="tilelink">Kontakt</a></li>
+    </ol> 
+ 
+    </div>
     <div class="container">
+        <a href="#" class="przyciskgora"></a>
+    </br>
+            <h1 class="tekst">Cennik</h1>
+          
+        </div>
+    
 
 
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
     </div>
+       
 
     
         <footer class="footer">
+            <div>
                 <ul class="menu2">
-                    <li><a href="#top">Powrót na górę</a></li>
-                    <li><a href="fotowolty.html">Panele fotowoltaiczne</a></li>
-                    <li><a href="firma.html">O firmie</a></li>
-                    <li><a href="oferta.html">Usługi</a></li>
-                    <li><a href="cennik.html">Cennik</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="kontakt.php">Kontakt</a></li>
+                    <li><a href="#top" class="tilelink2">Strona główna</a></li>
+                    <li><a href="fotowolty.html" class="tilelink2">Panele fotowoltaiczne</a></li>
+                    <li><a href="firma.html" class="tilelink">O firmie</a></li>
+                    <li><a href="oferta.html" class="tilelink">Oferta</a></li>
+                    <li><a href="cennik.html" class="tilelink">Cennik</a></li>
+                    <li><a href="galeria.html" class="tilelink">Galeria</a></li>
+                    <li><a href="kontakt.php" class="tilelink">Kontakt</a></li>
                 </ul>
             <p id="nazwafirmy"></p>
             <p id="dane"></p>
-
+        </div>
+        <div class="stopka">
+            <h2>Voltom Tomasz Kondej</h2>
+            <h2>Bratkówka 83</h2>
+            <h2>38-406 Odrzykoń</h2>
+        </div>
+        <div class="stopka">
+            <h2>Telefon: <a href="tel:+48661217756"> +48 661 217 756</a></h2>
+            <h2>E-mail: <a href="mailto:tomaszkondej.biuro@gmail.com"> tomaszkondej.biuro@gmail.com</a></h2>
+            </div>
         </footer>
 </body>
 
