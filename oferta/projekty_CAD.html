@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Montaż paneli fotowoltaicznych." />
+    <title> Voltom</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+
+    <script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			$('.przyciskgora').click(function() { $.scrollTo($('body'), 500); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+        $(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.przyciskgora').fadeIn();
+			else $('.przyciskgora').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+</head>
+    
+<body class="body">
+    <div class="header">
+        <div class="oferta">
+            <h1>Skontaktuj się z nami</h1>
+        </div>
+        <h2>Telefon: <a href="tel:+48661217756"> +48 661 217 756</a></h2>
+        <h2>E-mail: <a href="mailto:tomaszkondej.biuro@gmail.com"> tomaszkondej.biuro@gmail.com</a></h2>
+    </div>
+    <div class="menu">       
+    <ol>
+        <li><a href="../index.html" class="tilelink2">Strona główna</a></li>
+        <li><a href="../fotowolty.html" class="tilelink2">Panele fotowoltaiczne</a></li>
+        <li><a href="../firma.html" class="tilelink">O firmie</a></li>
+        <li><a href="../oferta.html" class="tilelink3">Oferta</a>
+            <ul>
+                <li><a href="instalacje_fotowolty.html" class="tilelink3">Instalacje fotowoltaiczne</a></li>
+                <li><a href="instalacje_elektryczne.html" class="tilelink3">Instalacje elektryczne w budynkach</a></li>
+                <li><a href="koparka.html" class="tilelink3">Usługi koparką</a></li>
+                <li><a href="projekty_CAD.html" class="tilelink3">Projekty instalacji w programie typu CAD</a></li>
+                <li><a href="inteligentny_dom.html" class="tilelink3">Systemy inteligentnego domu</a></li>
+                <li><a href="alarm_i_monitoring.html" class="tilelink3">Instalacje alarmowe i monitoringu</a></li>
+                <li><a href="video_domofon.html" class="tilelink3">Instalacje domofonowe, telewizyjne i internetowe</a></li>
+                <li><a href="osprzet_elektryczny.html" class="tilelink3">Podłącznie osprzętu elektrycznego</a></li>
+                <li><a href="plyty_indukcyjne.html" class="tilelink3">Podłącznie płyt indukcyjnych</a></li>
+                <li><a href="przeglady_konserwacje.html" class="tilelink3">Przeglądy i konserwacje instalacji elektrycznych</a></li>
+                <li><a href="oprawa_oswietlenie.html" class="tilelink3">Dobór opraw oświetleniowych</a></li>
+                <li><a href="pomiary.html" class="tilelink3">Pomiary odbiorcze i okresowe</a></li>
+            </ul>
+        </li>     
+        <li><a href="../cennik.html" class="tilelink">Cennik</a></li>
+        <li><a href="../galeria.html" class="tilelink">Galeria</a></li>
+        <li><a href="../kontakt.html" class="tilelink">Kontakt</a></li>
+    </ol> 
+ 
+    </div>
+    <div class="container">
+        <a href="#" class="przyciskgora"></a>
+    </br>
+            <h1 class="tekst">Projekty instalacji w programie typu CAD (rzut w 2D)</h1>
+            <h2 class="tekst1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
+            <div >
+                <img class="zdjecie" src="../pobrane/panele_fotowoltaiczne.jpg">
+            <figcaption> Panele</figcaption>
+        </div>
+    
+
+
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    </div>
+       
+
+    
+        <footer class="footer">
+            <div>
+                <ul class="menu2">
+                    <li><a href="../index.html" class="tilelink2">Strona główna</a></li>
+                    <li><a href="../fotowolty.html" class="tilelink2">Panele fotowoltaiczne</a></li>
+                    <li><a href="../firma.html" class="tilelink">O firmie</a></li>
+                    <li><a href="../oferta.html" class="tilelink">Oferta</a></li>
+                    <li><a href="../cennik.html" class="tilelink">Cennik</a></li>
+                    <li><a href="../galeria.html" class="tilelink">Galeria</a></li>
+                    <li><a href="../kontakt.php" class="tilelink">Kontakt</a></li>
+                </ul>
+            <p id="nazwafirmy"></p>
+            <p id="dane"></p>
+        </div>
+        <div class="stopka">
+            <h2>Voltom Tomasz Kondej</h2>
+            <h2>Bratkówka 83</h2>
+            <h2>38-406 Odrzykoń</h2>
+        </div>
+        <div class="stopka">
+            <h2>Telefon: <a href="tel:+48661217756"> +48 661 217 756</a></h2>
+            <h2>E-mail: <a href="mailto:tomaszkondej.biuro@gmail.com"> tomaszkondej.biuro@gmail.com</a></h2>
+            </div>
+        </footer>
+</body>
+
+</html>
