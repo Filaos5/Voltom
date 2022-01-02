@@ -33,6 +33,28 @@
 	
 	
 	</script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var backgroundCanvas = document.createElement("div");
+                backgroundCanvas.style.cssText = "position: fixed; top: 50%; left: 0; width: 100%; height: 0; z-index: 1; background: rgba(0,0,0,0.9) none center/auto 100vmin no-repeat; transition: all .8s ease-out; cursor: zoom-out;";
+                document.body.appendChild(backgroundCanvas);
+                backgroundCanvas.onclick = function() { 
+                    backgroundCanvas.style.top = "50%";
+                    backgroundCanvas.style.left = "0";
+                    backgroundCanvas.style.width = "100%";
+                    backgroundCanvas.style.height = "0";
+                };
+                var zoomInImgLinks = document.getElementsByClassName("zdjeciegaleria");
+                for(var i=0; i<zoomInImgLinks.length; ++i) zoomInImgLinks[i].addEventListener("click", function(e) {
+                    e.preventDefault();
+                    backgroundCanvas.style.backgroundImage = "url('"+e.target.parentNode.href+"')";
+                    backgroundCanvas.style.top = "0";
+                    backgroundCanvas.style.left = "0";
+                    backgroundCanvas.style.width = "100%";
+                    backgroundCanvas.style.height = "100%";
+                })
+            })
+        </script>
 </head>
     
 <body class="body">
@@ -73,20 +95,36 @@
     <div class="container">
         <a href="#" class="przyciskgora"></a>
     </br>
-            <h1 class="tekst">Galeria</h1>
-            <h2 class="tekst1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h1>
-            <div >
-                <img class="zdjecie" src="pobrane/panele_fotowoltaiczne.jpg">
-            <figcaption> Panele</figcaption>
-        </div>
+        <div class="tresc">
+            <h1 class="tekst">GALERIA FIRMY VOLTOM TOMASZ KONDEJ</h1>
+            <h2 class="tekst1">Galeria przedstawiająca realizację naszych dotychczasowych projektów. Zobacz, że pracujemy profesjonalnie. </h2>
+
+        <a class="zdjeciegaleria" href="zdjecia/IMG_20200516_185115.jpg">
+            <img class="zdjeciegaleriamale" src="zdjecia/IMG_20200516_185115.jpg">
+        </a>
+        <a class="zdjeciegaleria" href="zdjecia/IMG_20200825_185440.jpg">
+            <img class="zdjeciegaleriamale" src="zdjecia/IMG_20200825_185440.jpg">
+        </a>
+        <a class="zdjeciegaleria" href="zdjecia/IMG_20210612_160938.jpg">
+            <img class="zdjeciegaleriamale" src="zdjecia/IMG_20210612_160938.jpg">
+        </a>
+        <a class="zdjeciegaleria" href="zdjecia/IMG_20210529_135939.jpg">
+            <img class="zdjeciegaleriamale" src="zdjecia/IMG_20210529_135939.jpg">
+        </a>
+        <a class="zdjeciegaleria" href="zdjecia/IMG_20210927_175714.jpg">
+            <img class="zdjeciegaleriamale" src="zdjecia/IMG_20210927_175714.jpg">
+        </a>
     
-
-
+        <div class="koniec">
+                    
+        </div>
+    </div>
     </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
     </div>
        
+
+   
 
     
         <footer class="footer">

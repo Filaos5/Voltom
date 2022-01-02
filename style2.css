@@ -10,22 +10,31 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    background-color: #76c4f8;
+    background-color: #dae7f0;
     padding: 0px;
+}
+
+.tresc{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .header{
     text-align: center;
-    background-color: rgb(13, 31, 192);
+    background-color: rgb(15, 94, 240);
     height: 180px;
     padding: 15px;
+    padding-bottom: 50px;
     width: auto; 
     font-size: 12px;
-    color: rgb(233, 51, 66);
+    color: rgb(255, 255, 255);
 }
 .oferta{
-    color: rgb(233, 51, 66);
-    background-color: rgb(13, 31, 192);
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 94, 240);
     height: 90px;
     padding: 0px;
     width: auto;
@@ -154,6 +163,15 @@ a.tilelink3
     margin-right: auto;
 }
 
+a.tilelink4
+{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    margin: 0px;;
+}
+
 
 .menu a:hover
 {
@@ -223,7 +241,7 @@ a.niebieski
 }
 
 .firma2{
-    background-color: rgb(13, 31, 192);
+    background-color: rgb(25, 42, 196);
     margin: 0px;
     padding: 3px;
 }
@@ -244,39 +262,68 @@ a.niebieski
 
 #naglowek{
     color: rgb(255, 255, 255);
-    font-size: 60px;
+    font-size: 35px;
 }
 
 #naglowek2{
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #naglowek3{
     margin-top: 0px;
     margin-left: 20px;
-    padding: 5px;
-    font-size: 30px;
+    padding-top: 2px;
+    font-size: 20px;
     color: rgb(27, 8, 9);
 }
 
 .tekst{
-    font-size: 30px;
-    color: rgb(16, 2, 211);
+    font-size: 35px;
+    color: rgb(15, 11, 80);
 }
 
 .tekst1{
-    padding: 5px;
-    font-size: 20px;
-    color: rgb(211, 2, 2);
+    padding-left: 5px;
+    font-size: 22px;
+    color: rgb(15, 11, 80);
 }
+
+.tekst2{
+    padding: 3px;
+    font-size: 30px;
+    color: rgb(15, 11, 80);
+}
+
+.tekst_naglowek{
+    padding: 3px;
+    font-size: 50px;
+    color: rgb(255,255,255);
+}
+
+.podpis{
+    padding: 3px;
+    font-size: 24px;
+    color: rgb(15, 11, 80);
+    text-align: center;
+    text-decoration: none;
+}
+.ofertauslug:hover > .tilelink4 {
+
+    text-decoration: none;
+}
+.ofertauslug:hover > .tilelink4 > .podpis{
+    color: rgb(25, 112, 13);
+    text-decoration: none;
+}
+
 
 .koniec{
     clear:both;
 }
 
 .footer {
-    background-color: yellow; 
+    background-color: rgb(250, 250, 100); 
     text-align: center;
     bottom:0;
 	width:100%;
@@ -307,18 +354,50 @@ a.niebieski
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 1000px;
-    background: #CFD5DE url(zdjecia/IMG_20211003_122630.jpg) no-repeat center center fixed;
+    height: 600px;
+    background: #CFD5DE url(pobrane/AdobeStock_442842095.jpeg) no-repeat center center fixed;
+    background-size:cover
 }
 
 .zdjecie {
-    float:left;
     margin: 0px;
     padding: 0px;
     width: 100%;   
 }
+.ofertauslug{
+    float: left;
+    margin: 10%;
+    width: 80%;
+    aspect-ratio: 1 / 0.7;
+}
 
+#zdjecie1 {
+    float:left;
+    margin: 0px;
+    padding: 6%;
+    width: 85%;
+}
 
+#zdjecie2 {
+    float:left;
+    margin: 0px;
+    padding: 6%;
+    width: 85%;
+}
+
+#zdjecie3 {
+    float:left;
+    margin: 0px;
+    padding: 6%;
+    width: 85%;
+}
+#naglowek_na_tle{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+}
 .przyciskgora
 {
 	width: 64px;
@@ -326,10 +405,39 @@ a.niebieski
 	text-decoration: none;
 	background: url("pobrane/up.png") no-repeat 0px 0px;
 	position: fixed;
-	right: 50px;
+	right: 10px;
 	bottom: 50px;
 	display: none;
 }
 
+.zdjeciegaleriamale{
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 41%;
+    float:left;
+    padding: 0px;
+}
+
+.zdjeciegaleria:hover {
+    cursor: zoom-in;
+}   
+
+.fb
+{
+    color: white;
+    font-size: 100px;
+    margin: 10px;
+    width: 140px;
+    height: 130px;
+    background-color: #4668b3;
+    float: left;
+
+}
+
+.icon-facebook
+{
+    color: white;
+}
 
 }
